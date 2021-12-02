@@ -1,0 +1,36 @@
+.rfield::before {
+    content: " * ";
+    color: #ff0000;
+}
+
+.myhr {
+    color: #0000ff;
+    margin-right: 50px;
+    padding: 22px;
+    width: 1390px;
+    ;
+}
+
+.mytext {
+    color: #FFA500;
+    font-size: 20px;
+}
+
+.myhr2 {
+    color: #0000ff;
+    width: 1420px;
+}
+
+#mybutton {
+    margin-left: 5px;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 764px) {
+    .myhr {
+        width: 583px;
+    }
+    .myhr2 {
+        width: 583px;
+    }
+}
